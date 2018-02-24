@@ -1,0 +1,7 @@
+{
+    "营销业务所有办理报表":"http://{host}/sireports/integrate/ngreports.jsp?reportid=13880243043690&login_flag=0&groupid=19&busi_group_id=70403&region_id=29&DemixRandomNumParam={random}",
+    "营销业务所有冲正报表":"http://{host}/sireports/integrate/ngreports.jsp?reportid=13880243043690&login_flag=0&groupid=19&busi_group_id=70403&region_id=29&DemixRandomNumParam={random}",
+    "营业员操作明细报表":"http://{host}/sireports/integrate/ngreports.jsp?reportid=13730112978917&login_flag=0&groupid=19&busi_group_id=70403&region_id=29&DemixRandomNumParam={random}",
+    "产品变更明细统计":"http://{host}/sireports/integrate/ngreports.jsp?reportid=12646620719940&login_flag=0&groupid=19&busi_group_id=70403&region_id=29&DemixRandomNumParam={random}",
+    "开户按资费统计报表":"http://{host}/sireports/integrate/ngreports.jsp?reportid=13637643578897&login_flag=0&groupid=19&busi_group_id=70403&region_id=29&DemixRandomNumParam={random}"
+}

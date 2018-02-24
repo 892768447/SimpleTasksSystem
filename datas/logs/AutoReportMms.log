@@ -1,0 +1,35 @@
+[2018-02-24 13:47:13,675 AutoReportMms.py:117] P:11160 T:9340 ERROR    HTTPConnectionPool(host='127.0.0.1', port=8989): Max retries exceeded with url: /live (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05AD9C50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',))<br />
+[2018-02-24 13:47:13,739 AutoReportUtil.py:407] P:11160 T:9340 DEBUG    load module jobs.EmailMonitorJob.job<br />
+[2018-02-24 13:47:13,740 AutoReportUtil.py:418] P:11160 T:9340 DEBUG    tname: jobs/EmailMonitorJob/邮件监控配置文件.xlsx<br />
+[2018-02-24 13:47:13,967 AutoReportUtil.py:425] P:11160 T:9340 DEBUG    cron:{'周': None, '分': '0-59', '月': None, '时': '8-23', '启用': True, '开始日期': None, '年': None, '日周': None, '秒': None, '日': None, '结束日期': None}<br />
+[2018-02-24 13:47:14,380 AutoReportUtil.py:407] P:11160 T:9340 DEBUG    load module jobs.GreenCaseJob.job<br />
+[2018-02-24 13:47:14,381 AutoReportUtil.py:418] P:11160 T:9340 DEBUG    tname: jobs/GreenCaseJob/绿网入库配置文件.xlsx<br />
+[2018-02-24 13:47:14,605 AutoReportUtil.py:425] P:11160 T:9340 DEBUG    cron:{'周': None, '分': 30, '月': None, '时': 8, '启用': True, '开始日期': None, '年': None, '日周': None, '秒': None, '日': None, '结束日期': None}<br />
+[2018-02-24 13:47:14,607 AutoReportUtil.py:418] P:11160 T:9340 DEBUG    tname: jobs/GreenCaseJob/绿网监控配置文件.xlsx<br />
+[2018-02-24 13:47:14,817 AutoReportUtil.py:425] P:11160 T:9340 DEBUG    cron:{'周': None, '分': None, '月': None, '时': '9,13,17', '启用': True, '开始日期': None, '年': None, '日周': 'sat-sun', '秒': None, '日': None, '结束日期': None}<br />
+[2018-02-24 13:47:14,861 AutoReportUtil.py:407] P:11160 T:9340 DEBUG    load module jobs.MmsCollectionJob.job<br />
+[2018-02-24 13:47:14,862 AutoReportUtil.py:418] P:11160 T:9340 DEBUG    tname: jobs/MmsCollectionJob/经分提取配置文件0830.xlsx<br />
+[2018-02-24 13:47:15,095 AutoReportUtil.py:425] P:11160 T:9340 DEBUG    cron:{'周': None, '分': 30, '月': None, '时': 8, '启用': True, '开始日期': None, '年': None, '日周': None, '秒': None, '日': None, '结束日期': None}<br />
+[2018-02-24 13:47:15,103 AutoReportUtil.py:418] P:11160 T:9340 DEBUG    tname: jobs/MmsCollectionJob/经分提取配置文件1320.xlsx<br />
+[2018-02-24 13:47:15,332 AutoReportUtil.py:425] P:11160 T:9340 DEBUG    cron:{'周': None, '分': 20, '月': None, '时': 13, '启用': True, '开始日期': None, '年': None, '日周': None, '秒': None, '日': None, '结束日期': None}<br />
+[2018-02-24 13:47:15,335 AutoReportUtil.py:418] P:11160 T:9340 DEBUG    tname: jobs/MmsCollectionJob/经分提取配置文件1620.xlsx<br />
+[2018-02-24 13:47:15,582 AutoReportUtil.py:425] P:11160 T:9340 DEBUG    cron:{'周': None, '分': 10, '月': None, '时': 16, '启用': True, '开始日期': None, '年': None, '日周': None, '秒': None, '日': None, '结束日期': None}<br />
+[2018-02-24 13:47:15,584 AutoReportUtil.py:418] P:11160 T:9340 DEBUG    tname: jobs/MmsCollectionJob/经分提取配置文件1830.xlsx<br />
+[2018-02-24 13:47:15,819 AutoReportUtil.py:425] P:11160 T:9340 DEBUG    cron:{'周': None, '分': 30, '月': None, '时': 18, '启用': True, '开始日期': None, '年': None, '日周': None, '秒': None, '日': None, '结束日期': None}<br />
+[2018-02-24 13:47:15,822 AutoReportUtil.py:418] P:11160 T:9340 DEBUG    tname: jobs/MmsCollectionJob/乡镇经分提取配置文件.xlsx<br />
+[2018-02-24 13:47:16,059 AutoReportUtil.py:425] P:11160 T:9340 DEBUG    cron:{'周': None, '分': None, '月': None, '时': 8, '启用': True, '开始日期': None, '年': None, '日周': 4, '秒': None, '日': None, '结束日期': None}<br />
+[2018-02-24 13:47:16,068 AutoReportUtil.py:407] P:11160 T:9340 DEBUG    load module jobs.ReportCollectionJob.job<br />
+[2018-02-24 13:47:16,068 AutoReportUtil.py:418] P:11160 T:9340 DEBUG    tname: jobs/ReportCollectionJob/营销报表提取配置文件每个小时.xlsx<br />
+[2018-02-24 13:47:16,284 AutoReportUtil.py:425] P:11160 T:9340 DEBUG    cron:{'周': None, '分': None, '月': None, '时': '9-23', '启用': True, '开始日期': None, '年': None, '日周': None, '秒': None, '日': None, '结束日期': None}<br />
+[2018-02-24 13:47:16,298 AutoReportUtil.py:407] P:11160 T:9340 DEBUG    load module jobs.Reports.FourthJob.job<br />
+[2018-02-24 13:47:16,298 AutoReportUtil.py:418] P:11160 T:9340 DEBUG    tname: jobs/Reports/FourthJob/岁末营销日报.xlsx<br />
+[2018-02-24 13:47:16,632 AutoReportUtil.py:425] P:11160 T:9340 DEBUG    cron:{'周': None, '分': None, '月': None, '时': 15, '启用': True, '开始日期': None, '年': None, '日周': None, '秒': None, '日': None, '结束日期': None}<br />
+[2018-02-24 13:47:16,739 AutoReportMms.py:124] P:11160 T:9340 INFO     scheduler started<br />
+[2018-02-24 13:47:16,757 AutoReportMms.py:127] P:11160 T:9340 INFO     scheduler running<br />
+[2018-02-24 13:47:16,757 AutoReportMms.py:130] P:11160 T:9340 INFO     http server init<br />
+[2018-02-24 13:47:16,760 AutoReportMms.py:134] P:11160 T:9340 INFO     run http server 0.0.0.0:8989<br />
+[2018-02-24 13:47:16,761 AutoReportMms.py:137] P:11160 T:9340 INFO     io loop start<br />
+[2018-02-24 13:48:00,007 base.py:123] P:11160 T:16684 INFO     Running job "邮件服务 (trigger: cron[hour='8-23', minute='0-59'], next run at: 2018-02-24 13:48:00 CST)" (scheduled at 2018-02-24 13:48:00+08:00)<br />
+[2018-02-24 13:48:00,205 base.py:144] P:11160 T:16684 INFO     Job "邮件服务 (trigger: cron[hour='8-23', minute='0-59'], next run at: 2018-02-24 13:49:00 CST)" executed successfully<br />
+[2018-02-24 13:49:00,015 base.py:123] P:11160 T:16684 INFO     Running job "邮件服务 (trigger: cron[hour='8-23', minute='0-59'], next run at: 2018-02-24 13:49:00 CST)" (scheduled at 2018-02-24 13:49:00+08:00)<br />
+[2018-02-24 13:49:00,162 base.py:144] P:11160 T:16684 INFO     Job "邮件服务 (trigger: cron[hour='8-23', minute='0-59'], next run at: 2018-02-24 13:50:00 CST)" executed successfully<br />

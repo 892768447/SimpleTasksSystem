@@ -1,0 +1,13 @@
+POST /sireports/integrate.do?DemixRandomNumParam=15094948938&method=loadExportData_ng&fileName=营销业务报表&title=营销业务报表&align=6&outtype=excel&basenodeid=0_12621797894526_200_13880243043690_营销业务报表&nodeid=0_12621797894526_200_13872658781879_t-营销业务所有冲正报表&jdbcsourceid=1386667109539&rnd=0.37854356556461366 HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, application/x-ms-application, application/xaml+xml, application/x-ms-xbap, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*
+Referer: http://10.112.103.102:11500/sireports/integrate/ngreports.jsp?reportid=13880243043690&login_flag=0&groupid=19&busi_group_id=70403&region_id=29&DemixRandomNumParam=15094948938
+Accept-Language: en-US,en;q=0.8,zh-Hans-CN;q=0.5,zh-Hans;q=0.3
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; InfoPath.2)
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: 10.112.103.102:11500
+Content-Length: 14497
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: JSESSIONID=4ZapcTo8ULdB91SMUSJWTLvTjBRsqX5JJLfZKSLjZFhxzS8vHM-c!-363634323; CSRF_TOKEN=15094948938
+

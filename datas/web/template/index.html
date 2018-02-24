@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>日报自动化状态监控</title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="/static/layui/css/layui.css" media="all">
+    </head>
+    <body>
+        <div class="layer-text" style="z-index:100;"></div>
+        <fieldset class="layui-elem-field layui-field-title" style="margin-right: 320px;">
+            <legend>任务调度</legend>
+        </fieldset>
+        <span style="position: absolute;right: 10px;top: 10px;">
+        <!-- button class="layui-btn" id="taskAdd">新增任务</button -->
+        <button class="layui-btn" id="mmsLog">彩信日志</button>
+        <button class="layui-btn layui-btn-normal" id="logView">日志查看</button>
+        <button class="layui-btn layui-btn-danger" id="taskRestart">重启调度</button>
+        </span>
+        <div class="layui-form">
+            <table class="layui-table">
+                <colgroup>
+                    <col width="150">
+                    <col width="150">
+                    <col width="150">
+                    <col width="300">
+                    <col>
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>任务名</th>
+                        <th>触发</th>
+                        <th>下次运行</th>
+                        <th>控制</th>
+                    </tr>
+                </thead>
+                <tbody id="bodyTasks">
+                    <script id="artTasks" type="text/html">
+                        <% for(var i=0; i<data.length; i++) { %>
+                            <% var job = data[i]; %>
+                          <tr>
+                            <td><%= job.id %></td>
+                            <td><%= job.name %></td>
+                            <td><%= job.trigger %></td>
+                            <td><%= job.next_run_time %></td>
+                            <td>
+                            <div class="layui-btn-group">
+                                <button class="layui-btn" onclick="taskControl(this, '<%= job.id %>', 1);">日志</button>
+                                <!-- button class="layui-btn layui-btn-normal" onclick="taskModify('<%= job.id %>');">修改</button -->
+                                <% if(job.next_run_time !== "None") { %>
+                                <button class="layui-btn layui-btn-warm" onclick="taskControl(this, '<%= job.id %>', 2);">暂停</button>
+                                <% } else { %>
+                                <button class="layui-btn layui-btn-normal" onclick="taskControl(this, '<%= job.id %>', 3);">恢复</button>
+                                <% } %>
+                                <button class="layui-btn layui-btn-danger" onclick="taskControl(this, '<%= job.id %>', 4);">删除</button>
+                                <!-- button class="layui-btn" onclick="taskControl(this, '<%= job.id %>', 5);">重启</button -->
+                            </div>
+                            </td>
+                          </tr>
+                        <% } %>
+                    </script>
+                </tbody>
+            </table>
+        </div>
+        <script src="/static/layui/lay/dest/layui.all.js" charset="utf-8"></script>
+        <script src="/static/js/es5-shim.min.js" charset="utf-8"></script>
+        <script src="/static/js/es5-sham.min.js" charset="utf-8"></script>
+        <script src="/static/js/json3.min.js" charset="utf-8"></script>
+        <script src="/static/js/template-web.js" charset="utf-8"></script>
+        <script src="/static/js/index.js" charset="utf-8"></script>
+    </body>
+</html>

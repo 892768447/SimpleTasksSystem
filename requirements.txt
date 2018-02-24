@@ -1,0 +1,14 @@
+requests
+requests_toolbelt
+jinja2
+openpyxl
+imapclient
+pyyaml
+tornado
+pymysql
+sqlalchemy
+apscheduler
+wxpy
+numpy
+pandas
+bs4

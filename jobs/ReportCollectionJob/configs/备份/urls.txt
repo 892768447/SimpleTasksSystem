@@ -1,0 +1,13 @@
+#表示注释
+
+hosts: "10.112.103.104:11500;10.112.103.105:11500;10.112.103.106:11500;10.112.103.107:11500;10.112.103.108:11500;10.112.103.109:11500;10.112.103.100:11500;10.112.103.110:11500"
+
+营销业务所有办理报表: "http://{host}/sireports/integrate.do?DemixRandomNumParam={random}&method=loadExportData_ng&fileName=营销业务报表&title=营销业务报表&align=6&outtype=excel&basenodeid=0_12621797894526_200_13880243043690_营销业务报表&nodeid=0_12621797894526_200_13872657532721_t-营销业务所有办理报表&jdbcsourceid=1386667109539&rnd={rnd}"
+
+营销业务所有冲正报表: "http://{host}/sireports/integrate.do?DemixRandomNumParam={random}&method=loadExportData_ng&fileName=营销业务报表&title=营销业务报表&align=6&outtype=excel&basenodeid=0_12621797894526_200_13880243043690_营销业务报表&nodeid=0_12621797894526_200_13872658781879_t-营销业务所有冲正报表&jdbcsourceid=1386667109539&rnd={rnd}"
+
+营业员操作明细报表: "http://{host}/sireports/integrate.do?DemixRandomNumParam={random}&method=loadExportData_ng&fileName=营业员业务操作明细报表（总）&title=营业员业务操作明细报表（总）&align=6&outtype=excel&basenodeid=0_12621797894526_200_13730112978917_营业员业务操作明细报表（总）&nodeid=0_12621797894526_200_13723359629949_营业员操作明细报表&jdbcsourceid=200&rnd={rnd}"
+
+产品变更明细统计: "http://{host}/sireports/integrate.do?DemixRandomNumParam={random}&method=loadExportData_ng&fileName=产品变更明细统计&title=产品变更明细统计&align=6&outtype=excel&basenodeid=0_12621797894526_200_12646620719940_产品变更明细统计&nodeid=0_12621797894526_200_12646620719940_产品变更明细统计&jdbcsourceid=200&rnd={rnd}"
+
+开户按资费统计报表: "http://{host}/sireports/integrate.do?DemixRandomNumParam={random}&method=loadExportData_ng&fileName=开户按资费统计报表&title=开户按资费统计报表&align=6&outtype=excel&basenodeid=0_12621797894526_200_13637643578897_开户按资费统计报表&nodeid=0_12621797894526_200_13862153270666_开户按资费统计报表(地市)&jdbcsourceid=200&rnd={rnd}"

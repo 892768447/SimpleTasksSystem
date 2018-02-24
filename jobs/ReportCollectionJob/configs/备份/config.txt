@@ -1,0 +1,10 @@
+#表示注释
+host: "10.105.160.68"
+user: "root"
+pwd: "root"
+modules:
+# YxBlCollection: "营销业务所有办理报表"
+# YxCzCollection: "营销业务所有冲正报表"
+ CzMxCollection: "营业员操作明细报表"
+# CpBgCollection: "产品变更明细统计"
+# KhZfTjCollection: "开户按资费统计报表"

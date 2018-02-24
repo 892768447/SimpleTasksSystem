@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>日志查看-{{ title }}</title>
+        <style>pre{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word;}</style>
+        <script src="/static/js/zepto.min.js"></script>
+    </head>
+    <body>
+        <code id="logs">
+        </code>
+        <script>
+            function scrollToEnd() {
+                var h = $(document).height() - $(window).height();
+                $(document).scrollTop(h);
+            }
+            var ws = new WebSocket("ws://" + location.host + "/api/logs");
+            ws.onopen = function() {
+                ws.send("{{ path }}");
+            };
+            ws.onmessage = function (msg) {
+                $("#logs").append("<pre>"+msg.data+"</pre>");
+                scrollToEnd();
+            };
+        </script>
+    </body>
+</html>

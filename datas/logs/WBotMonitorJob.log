@@ -1,0 +1,6 @@
+[2018-02-24 13:46:00,737 WBotMonitorJob:45] P:11828 T:10744 DEBUG    uuid: wc5a8YaWHA==, status: 0, qrcode: 706<br />
+[2018-02-24 13:46:00,739 WBotMonitorJob:48] P:11828 T:10744 DEBUG    save qrcode ok<br />
+[2018-02-24 13:46:25,821 WBotMonitorJob:45] P:11828 T:10744 DEBUG    uuid: wc5a8YaWHA==, status: 408, qrcode: 706<br />
+[2018-02-24 13:46:25,822 WBotMonitorJob:48] P:11828 T:10744 DEBUG    save qrcode ok<br />
+[2018-02-24 13:46:50,906 WBotMonitorJob:45] P:11828 T:10744 DEBUG    uuid: wc5a8YaWHA==, status: 408, qrcode: 706<br />
+[2018-02-24 13:46:50,907 WBotMonitorJob:48] P:11828 T:10744 DEBUG    save qrcode ok<br />

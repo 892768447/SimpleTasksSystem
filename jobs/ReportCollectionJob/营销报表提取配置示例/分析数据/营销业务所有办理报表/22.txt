@@ -1,0 +1,58 @@
+alltdid=0|0||| 操作报表                      !1|1|0|1|0|营销业务送优惠报表,1$营销业务送优惠冲正报表,2$营销业务送卡报表,3$营销业务送卡冲正报表,4$营销业务送实物报表,5$营销业务送实物冲正报表,6$营销业务送预存报表,7$营销业务送预存冲正报表,8$营销业务综合类办理报表,9$营销业务综合类冲正报表,10$营销业务所有业务办理报表,11$营销业务所有业务冲正报表,12$营销业务提前解除报表,13$营销业务退订报表,14$营销业务转移报表,15$营销业务预占报表,16$营销业务预占冲正报表,17$营销业务裸机办理报表,18$营销业务裸机冲正报表,19$营销业务裸机退机报表,20$营改增终端营销价税分离报表,21$营改增终端营销价税分离冲正报表,22|triger,2,$t|0;;                !0|0||| 打印范围                      !1|1|0|1|0|营业员,营业员$地市,地市$区县,区县$营业厅,营业厅|triger,2,$t|0;;                                            !0|0||| 地市                      !1|1|0|0|13904658026831_VIEW_REGION|0|triger,2,2_$e__0,$t|0;;                  !0|0||| 区县                      !1|1|0|0|13904659934197_VIEW_CITY|0|triger,2,3_$e__0,$t|0;;                                    !0|0||| 营业厅                      !1|1|7|0|13904660746414_VIEW_SITE|0|triger,2,4_$e__0,$t|0;;             !0|0||| 营业员                      !1|1|0|0|13904700116805_BS_LOGINMSG_DICT|0|triger,2,5_$e__0,$t|0;;                                    !0|0||| 业务类型                      !1|1|0|0|13880283208965_MK_ACTCLASSTYPE_DICT|0|triger,2,6_$e__0$t|0;;                    !0|0||| 统计类型         !1|1|0|1|0|统计展示,0$明细展示,1|triger,2,$t|0;;                  !0|0||| 活动名称                      !1|1|7|0|14053529496421_VIEW_ACT|0|triger,2,0_$e__0,$t|1;GROUP_ID;1_1,1_3,2_1,2_3,        !0|0||| 方式名称                      !1|1|7|0|14055997563210_VIEW_MEANS|0|triger,2,1_$e__0,$t|1;BUSI_ID;4_1,            !0|0||| 开始时间          !1|0|0_$s_yyyyMMdd_20141029|5| |triger,2,0_$s_yyyyMMdd_20141029_0,$t; !0|0||| 结束时间          !1|0|1_$s_yyyyMMdd_20141029|5| |triger,2,1_$s_yyyyMMdd_20141029_0,0_$p_yyyyMM_6$t;  !0|0||| 办理渠道  !1|1|0|1|0|全渠道,ndq$电子渠道,dq$APP渠道,ap$传统渠道,nap|triger,2,7_$e__0,8_$e__0,9_$e__0,10_$e__0$t|0;;  !    !    !&alltdvalue= !11 ! ! ! !19 ! !117 ! ! ! ! ! ! ! ! ! ! ! ! ! !20170613 ! !20170613 ! ! ! ! !&Head=<TABLE style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 100%; WHITE-SPACE: nowrap; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; LINE-HEIGHT: 12px" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: right; BORDER-LEFT: medium none; nowrap: nowrap" colSpan=2>打印时间：20170613 16:19:26</TD></TR></TBODY></TABLE>&Body=<TABLE id=datatable style="WHITE-SPACE: nowrap" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TH onclick=javascript:sortData(this) id=0 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>工号</TH>
+<TH onclick=javascript:sortData(this) id=1 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>区县</TH>
+<TH onclick=javascript:sortData(this) id=2 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>营销中心</TH>
+<TH onclick=javascript:sortData(this) id=3 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>营业厅</TH>
+<TH onclick=javascript:sortData(this) id=4 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>渠道编码</TH>
+<TH onclick=javascript:sortData(this) id=5 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>渠道类型</TH>
+<TH onclick=javascript:sortData(this) id=6 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>终端机型</TH>
+<TH onclick=javascript:sortData(this) id=7 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>终端串号</TH>
+<TH onclick=javascript:sortData(this) id=8 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>办理时间</TH>
+<TH onclick=javascript:sortData(this) id=9 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>方式编码</TH>
+<TH onclick=javascript:sortData(this) id=10 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>终端类型</TH>
+<TH onclick=javascript:sortData(this) id=11 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>终端制式</TH>
+<TH onclick=javascript:sortData(this) id=12 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>活动名称</TH>
+<TH onclick=javascript:sortData(this) id=13 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>方式名称</TH>
+<TH onclick=javascript:sortData(this) id=14 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>业务类型</TH>
+<TH onclick=javascript:sortData(this) id=15 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>订单号</TH>
+<TH onclick=javascript:sortData(this) id=16 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>缴费金额</TH>
+<TH onclick=javascript:sortData(this) id=17 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>使用抵扣券金额</TH>
+<TH onclick=javascript:sortData(this) id=18 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>购机款</TH>
+<TH onclick=javascript:sortData(this) id=19 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>预存款</TH>
+<TH onclick=javascript:sortData(this) id=20 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>赠送优惠金额</TH>
+<TH onclick=javascript:sortData(this) id=21 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>赠送预存金额</TH>
+<TH onclick=javascript:sortData(this) id=22 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>赠送卡金额</TH>
+<TH onclick=javascript:sortData(this) id=23 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>赠送物金额</TH>
+<TH onclick=javascript:sortData(this) id=24 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>赠送其金额</TH>
+<TH onclick=javascript:sortData(this) id=25 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>赠送抵扣券金额</TH>
+<TH onclick=javascript:sortData(this) id=26 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>是否有订单</TH>
+<TH onclick=javascript:sortData(this) id=27 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>服务号码</TH>
+<TH onclick=javascript:sortData(this) id=28 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>业务代码</TH>
+<TH onclick=javascript:sortData(this) id=29 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>缴费方式</TH>
+<TH onclick=javascript:sortData(this) id=30 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>终端型号</TH>
+<TH onclick=javascript:sortData(this) id=31 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>采购价</TH>
+<TH onclick=javascript:sortData(this) id=32 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>代销商提货时间</TH>
+<TH onclick=javascript:sortData(this) id=33 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>买断价</TH>
+<TH onclick=javascript:sortData(this) id=34 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>用户实现销售时间</TH>
+<TH onclick=javascript:sortData(this) id=35 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>打标与否</TH>
+<TH onclick=javascript:sortData(this) id=36 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>合约类型</TH>
+<TH onclick=javascript:sortData(this) id=37 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>合约价</TH>
+<TH onclick=javascript:sortData(this) id=38 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>不含税购机款</TH>
+<TH onclick=javascript:sortData(this) id=39 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>税金</TH>
+<TH onclick=javascript:sortData(this) id=40 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>是否跨区办理</TH></TR></TBODY></TABLE>&Foot=<table border=0> </table>

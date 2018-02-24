@@ -1,0 +1,23 @@
+alltdid=0|0||| 地市           !1|1|0|0|13113164137788_VIEW_REGION|0|triger,2,$t|0;;           !0|0||| 区县           !1|1|0|0|13113165579532_VIEW_CITY|0|triger,2,$t|0;;                      !0|0||| 营业厅           !1|1|8|0|13113166808917_VIEW_SITE|0|triger,2,$t|0;;           !0|0||| 营业员           !1|1|0|0|12626610942055_BS_LOGINMSG_DICT|0|triger,2,$t|0;;                      !0|0||| 操作类型           !1|1|0|1|0|订购,I$退订,D|triger,2,$t|0;;           !0|0||| 统计类型           !1|1|0|1|0|明细,MX$统计,TJ|triger,2,$t|0;;                    !0|0||| 产品资费        !1|1|7|0|14279094785297_PD_PRC_DICT_$6|0|triger,2,$t|0;;    !0|0||| 分业务统计 !1|1|0|0|12630388147728_BS_FUNCTION_DICT|0|triger,2,$t|0;;  !0|0||| 起始日期           !1|0|0_$s_yyyyMMdd_20121017|| |triger,2,$t;           !0|0||| 截止日期           !1|0|1_$s_yyyyMMdd_20121017|| |triger,2,$t;             !&alltdvalue= !19s ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !20170623 ! !20170623 !&Head=<TABLE style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: 100%; WHITE-SPACE: nowrap; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; LINE-HEIGHT: 12px" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap"></TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: left; BORDER-LEFT: medium none; nowrap: nowrap">&nbsp;&nbsp;</TD>
+<TD style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; WORD-BREAK: keep-all; TEXT-ALIGN: right; BORDER-LEFT: medium none; nowrap: nowrap" colSpan=2>打印时间：20170623 10:13:11</TD></TR></TBODY></TABLE>&Body=<TABLE id=datatable style="WHITE-SPACE: nowrap" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TH onclick=javascript:sortData(this) id=0 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>归属</TH>
+<TH onclick=javascript:sortData(this) id=1 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>用户号码</TH>
+<TH onclick=javascript:sortData(this) id=2 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>用户品牌</TH>
+<TH onclick=javascript:sortData(this) id=3 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>业务方式</TH>
+<TH onclick=javascript:sortData(this) id=4 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>套餐标识</TH>
+<TH onclick=javascript:sortData(this) id=5 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>套餐名称</TH>
+<TH onclick=javascript:sortData(this) id=6 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>操作员</TH>
+<TH onclick=javascript:sortData(this) id=7 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>操作日期</TH>
+<TH onclick=javascript:sortData(this) id=8 style="CURSOR: pointer; TEXT-ALIGN: center" noWrap>操作类型</TH></TR></TBODY></TABLE>&Foot=<table border=0> </table>
